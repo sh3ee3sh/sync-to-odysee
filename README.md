@@ -3,6 +3,7 @@ A guide on how to sync youtube channels and directories/batch upload of video to
 After searching for guides I gave up looking and went to go figure out myself, but now here's a guide I couldn't find before. 
 
 Disclaimer: I am not affiliated with the team behind odysee. 
+
 Requirements: 
 
 yt-dlp (if wanting to sync youtube channels)
