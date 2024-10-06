@@ -16,6 +16,8 @@ lbry-desktop
 
 chronyd (for automation of yt-dlp)
 
+autovod (automatic sync of twitch/youtube/kick vods) 
+
 
 Step 1:
 Figure out where your lbry is installed at as we will need to point to it in our shell script typically it is in /usr/bin/lbrynet but every system is different
