@@ -1,14 +1,14 @@
 # WIP sync to odysee
-A guide on how to sync directories/do batch upload of video to odysee using lbrynet. 
-After searching for guides I gave up looking and went to go figure out myself, but now here's a guide for anyone else before with my situation. 
+A guide on how to sync youtube channels and directories/batch upload of video to odysee using lbrynet. 
+After searching for guides I gave up looking and went to go figure out myself, but now here's a guide I couldn't find before. 
 
 Requirements: 
 
 yt-dlp (if wanting to sync youtube channels)
 
-a linux distro of your choice I use Arch but I don't think this will make much of a difference if you use something else
+a linux distro of your choice (shouldn't matter what you use, but I use arch for this btw)
 
-(No Windows support use Windows Subsystem for Linux for now at least) 
+(No Windows support use Windows Subsystem for Linux or a virtual machine for now at least) 
 
 bash (idk if fish or zsh would work with the scripts i'll be providing)
 
