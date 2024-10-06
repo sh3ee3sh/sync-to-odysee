@@ -6,11 +6,15 @@ Requirements:
 
 yt-dlp (if wanting to sync youtube channels)
 
-some sort of linux distribution
+a linux distro of your choice I use Arch but I don't think this will make much of a difference if you use something else
 
-bash
+(No Windows support use Windows Subsystem for Linux for now at least) 
+
+bash (idk if fish or zsh would work with the scripts i'll be providing)
 
 lbry-desktop
+
+chronyd (for automation of yt-dlp)
 
 
 Step 1:
