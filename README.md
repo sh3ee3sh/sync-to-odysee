@@ -33,7 +33,7 @@ cronie (for automation of yt-dlp)
 
 [autovod](https://github.com/jenslys/autovod/) (automatic recording of twitch/youtube/kick vods) **
 
-** I have issues using autovod something related to streamlink and useragents on kick, it is a good program, but it may need some troubleshooting on your end.  
+** I have issues using autovod something related to streamlink and useragents on kick, it is a good program, but it may need some troubleshooting on your end. 
 
 ## Steps
 
