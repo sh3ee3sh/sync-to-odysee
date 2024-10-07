@@ -26,11 +26,13 @@ a linux distro of your choice (shouldn't matter what you use, but I use arch for
 bash (idk if fish or zsh would work with the scripts i'll be providing)
 
 lbry-desktop
+```
+**OPTIONAL**
 
 chronyd (for automation of yt-dlp)
 
 [autovod](https://github.com/jenslys/autovod/) (automatic recording of twitch/youtube/kick vods) 
-```
+
 ## Steps
 
 Step 1: Download requirements 
