@@ -29,7 +29,7 @@ lbry-desktop
 ```
 **OPTIONAL**
 
-ffmpeg (lbry and odysee do not support 4k)
+ffmpeg (lbry and odysee do support 4k BUT it is incredibly slow I recommend scaling down your videos if you actually want it to be watchable on odysee) 
 
 cronie (for automation of yt-dlp)
 
