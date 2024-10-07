@@ -28,6 +28,7 @@ bash (idk if fish or zsh would work with the scripts i'll be providing)
 lbry-desktop
 ```
 **OPTIONAL**
+
 ffmpeg (lbry and odysee do not support 4k)
 
 cronie (for automation of yt-dlp)
