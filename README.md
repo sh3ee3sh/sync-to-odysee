@@ -4,17 +4,19 @@ After searching for guides I gave up looking and went to go figure out myself, b
 
 Disclaimers:
 
-**Due to the uncertainty of the platform's future I recommend archiving everything locally till it becomes more clear.**  
+**Due to the uncertainty of the platform's future I recommend archiving everything locally till it becomes more clear.**  **
 
 **I am not affiliated with the team behind odysee or lbry.** 
 
-**Copyrighted material has the possiblity of getting striked and blocking you out of your channel I do not take responsibility if you get striked.**
+**Copyrighted material has the possiblity of getting striked and blocking you out of your channel I do not take responsibility if you get striked.** ***
 
-*lbry will not to my knowledge 
+** this guide will have yt-dlp setup to the point where it will make it easy to sync to other platforms, but you will need to figure out how to upload to your platform of choice after. 
+
+*** lbry will not to my knowledge 
 
 Requirements: 
 
-yt-dlp (if wanting to sync youtube channels)
+yt-dlp (if wanting to sync anything basically on the internet)
 
 a linux distro of your choice (shouldn't matter what you use, but I use arch for this btw)
 
