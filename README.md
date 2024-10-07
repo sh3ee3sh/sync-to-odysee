@@ -1,8 +1,9 @@
 # WIP sync to odysee
+
 A guide on how to sync youtube channels and directories/batch upload of video to odysee using lbrynet. 
 After searching for guides I gave up looking and went to go figure out myself, but now here's a guide I couldn't find before.
 
-Disclaimers:
+## Disclaimers 
 
 **Due to the uncertainty of the platform's future I recommend archiving everything locally till it becomes more clear.**  **
 
@@ -14,8 +15,8 @@ Disclaimers:
 
 *** lbry will not to my knowledge 
 
-Requirements: 
-
+## Requirements
+```bash
 yt-dlp (if wanting to sync anything basically on the internet)
 
 a linux distro of your choice (shouldn't matter what you use, but I use arch for this btw)
@@ -29,9 +30,9 @@ lbry-desktop
 chronyd (for automation of yt-dlp)
 
 autovod (automatic sync of twitch/youtube/kick vods) 
+```
+## Steps
 
+Step 1: Download requirements 
 
-Step 1:
-Figure out where your lbry is installed at as we will need to point to it in our shell script typically it is in /usr/bin/lbrynet but every system is different
-
-Step 2: 
+Step 2: Figure out where your lbry is installed at as we will need to point to it in our shell script typically it is in /usr/bin/lbrynet but every system is different
