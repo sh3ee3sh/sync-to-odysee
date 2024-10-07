@@ -16,7 +16,7 @@ After searching for guides I gave up looking and went to go figure out myself, b
 *** lbry will not to my knowledge 
 
 ## Requirements
-```bash
+```
 yt-dlp (if wanting to sync anything basically on the internet)
 
 a linux distro of your choice (shouldn't matter what you use, but I use arch for this btw)
