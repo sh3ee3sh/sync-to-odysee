@@ -29,7 +29,7 @@ lbry-desktop
 
 chronyd (for automation of yt-dlp)
 
-autovod (automatic sync of twitch/youtube/kick vods) 
+[autovod](https://github.com/jenslys/autovod/) (automatic recording of twitch/youtube/kick vods) 
 ```
 ## Steps
 
