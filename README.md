@@ -29,7 +29,7 @@ lbry-desktop
 ```
 **OPTIONAL**
 
-chronyd (for automation of yt-dlp)
+cronie (for automation of yt-dlp)
 
 [autovod](https://github.com/jenslys/autovod/) (automatic recording of twitch/youtube/kick vods) 
 
