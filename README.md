@@ -11,6 +11,7 @@ Disclaimers:
 **Copyrighted material has the possiblity of getting striked and blocking you out of your channel I do not take responsibility if you get striked.**
 
 *lbry will not to my knowledge 
+
 Requirements: 
 
 yt-dlp (if wanting to sync youtube channels)
