@@ -1,9 +1,15 @@
 # WIP sync to odysee
 A guide on how to sync youtube channels and directories/batch upload of video to odysee using lbrynet. 
-After searching for guides I gave up looking and went to go figure out myself, but now here's a guide I couldn't find before. 
+After searching for guides I gave up looking and went to go figure out myself, but now here's a guide I couldn't find before.
+**Due to the uncertainty of the platform's future I recommend archiving everything locally till it becomes more clear.**  
 
-Disclaimer: I am not affiliated with the team behind odysee. 
+Disclaimers:
 
+**I am not affiliated with the team behind odysee or lbry.** 
+
+**Copyrighted material has the possiblity of getting striked and blocking you out of your channel I do not take responsibility if you get striked.**
+
+*lbry will not to my knowledge 
 Requirements: 
 
 yt-dlp (if wanting to sync youtube channels)
