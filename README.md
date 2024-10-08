@@ -41,4 +41,8 @@ cronie (for automation of yt-dlp)
 
 Step 1: Download requirements 
 
-Step 2: Figure out where your lbry is installed at as we will need to point to it in our shell script typically it is in /usr/bin/lbrynet but every system is different
+Step 2: If you haven't already create an account on odysee
+
+Step 3: launch lbry and login with the details you used on odysee
+
+Step 4: we now want to find our claim
