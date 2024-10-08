@@ -1,5 +1,5 @@
 # WIP sync to odysee
-
+this repository is going private for the people cloning this 
 A guide on how to sync youtube channels and directories/batch upload of video to odysee using lbrynet. 
 After searching for guides I gave up looking and went to go figure out myself, but now here's a guide I couldn't find before.
 
