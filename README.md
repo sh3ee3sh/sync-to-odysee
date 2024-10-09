@@ -44,9 +44,23 @@ Step 1: Download requirements
 
 Step 2: If you haven't already create an account on odysee
 
-Step 3: launch lbry and login with the details you used on odysee
+Step 3: launch lbry and login with the details you used on odysee (i dont know if this acutally required but i did it)
 
-Step 4: we now want to find our claim
+Step 4: we now want to find our claim id it is located on your about page on odysee
+![image](https://github.com/user-attachments/assets/a08d9b3e-1ba6-4515-aeec-14ff823e36b9)
+
+Step 5: We are now going to setup our script in bash
+
+clone this repo or download it as a zip
+
+we are going to use default_incremental_lbry.sh 
+
+open it with your text editor of choice
+
+now we plug everything that we have in 
+
+
+
 ## To-do
 - [ ] Migrate scripts to python as LBRY doesn't have certain functionalities to my knowledge 
 - [ ] Use [lbry-tools](https://github.com/belikor/lbrytools) to create a function to make playlists and append videos to it automatticaly
