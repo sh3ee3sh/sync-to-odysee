@@ -47,3 +47,5 @@ Step 2: If you haven't already create an account on odysee
 Step 3: launch lbry and login with the details you used on odysee
 
 Step 4: we now want to find our claim
+## To-do
+(-) Migrate scripts to python as LBRY doesn't have certain functionalities 
