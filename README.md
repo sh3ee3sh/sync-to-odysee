@@ -48,5 +48,5 @@ Step 3: launch lbry and login with the details you used on odysee
 
 Step 4: we now want to find our claim
 ## To-do
-- [] Migrate scripts to python as LBRY doesn't have certain functionalities to my knowledge 
-- [] Use [lbry-tools](https://github.com/belikor/lbrytools) to create a function to make playlists and append videos to it automatticaly
+- [ ] Migrate scripts to python as LBRY doesn't have certain functionalities to my knowledge 
+- [ ] Use [lbry-tools](https://github.com/belikor/lbrytools) to create a function to make playlists and append videos to it automatticaly
