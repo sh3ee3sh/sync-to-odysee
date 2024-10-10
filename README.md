@@ -62,5 +62,4 @@ now we plug everything that we have in
 
 
 ## To-do
-- [ ] Migrate scripts to python bc LBRY doesn't have append playlist feature
-- [ ] Use [lbry-tools](https://github.com/belikor/lbrytools) to create a function to make playlists and append videos to it automatticaly
+
