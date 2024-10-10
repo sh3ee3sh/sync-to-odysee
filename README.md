@@ -62,4 +62,5 @@ now we plug everything that we have in
 
 
 ## To-do
+- [ ] add playlisting to script using collection function 
 
