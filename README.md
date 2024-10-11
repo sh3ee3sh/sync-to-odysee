@@ -16,13 +16,11 @@ After searching for well-documented guides for beginners I gave up looking and w
 
 ## Requirements
 ```
-yt-dlp (if wanting to sync anything basically on the internet)
+yt-dlp
 
-a linux distro of your choice (shouldn't matter what you use, but I use arch for this btw)
+a linux distro
 
-(No Windows support use Windows Subsystem for Linux or a virtual machine for now at least) 
-
-bash (idk if fish or zsh would work with the scripts i'll be providing)
+bash 
 
 lbry-desktop
 ```
