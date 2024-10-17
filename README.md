@@ -33,17 +33,18 @@ cronie (for automation of yt-dlp)
 ## Steps
 
 Step 1 - Download requirements 
-
+-
 Step 2 - If you haven't already create an account on odysee
-
+-
 Step 3 - launch lbry and login with the details you used on odysee (i dont know if this acutally required but i did it)
-
+-
 Step 4 - we now want to find our claim id it is located on your about page on odysee
+-
 ![image](https://github.com/user-attachments/assets/d3d2556b-dd22-438d-94ce-8fc9a8e5c81e)
 
 
 Step 5 - We are now going to setup our script
-
+-
 clone this repo or download it as a zip
 ```
 git clone https://github.com/sh3ee3sh/sync-to-odysee
@@ -56,7 +57,7 @@ change UPLOAD_DIR to your desired directory
 put your channel id in CHANNELID quotes
 
 Step 6 - Acquire the videos
-
+-
 I aliased this command to make it easier to ~/.bashrc (don't forget to source ~/.bashrc)
 ```
 alias yt-dlpsync='yt-dlp -f bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4 --merge-output-format mp4 --ppa "ffmpeg: -movflags +faststart" --write-thumbnail --convert-thumbnails png --write-description --write-info-json  -o "%(title)s/%(title)s.%(ext)s"'
@@ -72,7 +73,7 @@ yt-dlpsync -a links.txt
 this will download to the directory you are currently in so don't forget to use cd
 
 Step 7 - Setup our files
-
+-
 couple more aliases to make this as simple as possible (dont forget to source ~/.bashrc)
 ```
 alias maketagstxt='find . -name "*.info.json" -exec sh -c '\''jq -r ".tags[]? // empty" "$1" > "$(dirname "$1")/tags.txt"'\'' _ {} \;'
@@ -84,9 +85,16 @@ So these are to make this so that our script can read everything in the director
 Go to your directory where all your files are located and run the commands you want
 
 Step 8 - Run our script
+-
+```
+chmod +x default_incremental_lbry.sh
+bash default_incremental_lbry.sh
+```
+Optional
 
 
 ## To-do
 - [ ] add playlisting to script using lbrynet collection
 - [ ] not related to this repository but create ability to autoupload using autovod
 - [ ] fix claim id stuff
+- [ ] find a better way to thumbnail
