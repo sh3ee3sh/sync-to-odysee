@@ -90,4 +90,3 @@ Step 8 - Run our script
 - [ ] add playlisting to script using lbrynet collection
 - [ ] not related to this repository but create ability to autoupload using autovod
 - [ ] fix claim id stuff
-- [ ] 
