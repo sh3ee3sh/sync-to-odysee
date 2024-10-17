@@ -72,7 +72,8 @@ yt-dlpsync -a links.txt
 this will download to the directory you are currently in so don't forget to use cd
 
 Step 7 - Setup our files
-Couple more aliases to make this as simple as possible (dont forget to source ~/.bashrc)
+
+couple more aliases to make this as simple as possible (dont forget to source ~/.bashrc)
 ```
 alias maketagstxt='find . -name "*.info.json" -exec sh -c '\''jq -r ".tags[]? // empty" "$1" > "$(dirname "$1")/tags.txt"'\'' _ {} \;'
 alias makedescription='find . -name "*.description" -exec sh -c '"'"'mv "$1" "$(dirname "$1")/video.description"'"'"' _ {} \;'
