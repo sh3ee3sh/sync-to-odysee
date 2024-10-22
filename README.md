@@ -101,7 +101,7 @@ enjoy vids
 
 **Thumbnailing**
 
-I use jivan's script [here](https://gist.github.com/jivanpal/9b6f5d51ad976daaccc1f0f841807bb0) I found some issues with speech not working at times for certain thumbnails, so I dont recommend this right now. I'll try and figure out another way later. 
+I use jivan's script [here](https://gist.github.com/jivanpal/9b6f5d51ad976daaccc1f0f841807bb0). I found some issues with speech not working for certain thumbnails, so I dont recommend this right now. I'll try and figure out another way later. 
 
 
 ## To-do
