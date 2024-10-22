@@ -88,8 +88,8 @@ Go to your directory where all your files are located and run the commands you w
 Step 8 - Run our script
 -
 ```
-chmod +x default_incremental_lbry.sh
-bash default_incremental_lbry.sh
+chmod +x renamed_incremental_lbry.sh
+bash renamed_incremental_lbry.sh
 ```
 enjoy vids 
 
