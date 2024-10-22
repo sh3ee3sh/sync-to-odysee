@@ -3,7 +3,7 @@
 # Configuration
 LBRY_CLI="/usr/bin/lbrynet"  # Path to lbrynet CLI
 UPLOAD_DIR=""    # Path to the directory containing the files to upload
-PUBLISHED_FILE=".published_files"   # Hidden file to store the list of already uploaded files
+PUBLISHED_FILE=".published_videos"   # Hidden file to store the list of already uploaded files
 CHANNELID=""              # find it on your about page on odysee
 WALLETID="default_wallet" # first login should be with your odysee account to get this value
 BID_AMOUNT=0.001                     # absolute minimum bid amount 
