@@ -95,7 +95,7 @@ enjoy vids
 
 **Optional**
 -
-**Setting up autodownload and autoupload using cronie**
+**Setting up autodownload and autoupload using cronie to actually make this incremental**
 
 *SOON*
 
@@ -109,3 +109,4 @@ I use jivan's script [here](https://gist.github.com/jivanpal/9b6f5d51ad976daaccc
 - [ ] not related to this repository but create ability to autoupload using autovod
 - [ ] fix claim id stuff
 - [ ] find a better way to thumbnail
+- [ ] make this incremental
