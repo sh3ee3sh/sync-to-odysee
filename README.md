@@ -1,6 +1,6 @@
 # Intro
 
-A guide on how to sync youtube channels and directories/batch upload of video to odysee using lbrynet. 
+A guide on how to mass/batch upload video and manually archiving video without using Odysee's built in system. 
 After searching for well-documented guides for beginners I gave up looking and went to go figure out myself, but now here's a guide I couldn't find before.
 
 ## Disclaimers 
@@ -11,6 +11,8 @@ After searching for well-documented guides for beginners I gave up looking and w
 **I am not affiliated with the team behind odysee or lbry.** 
 
 **Copyrighted material has the possiblity of getting striked and blocking you out of your channel I do not take responsibility if you get striked.** 
+
+**Reminder: Anything NSFW isn't allowed on odysee unless tagged with Mature.**
 
 ## Requirements
 ```
@@ -89,11 +91,17 @@ Step 8 - Run our script
 chmod +x default_incremental_lbry.sh
 bash default_incremental_lbry.sh
 ```
+enjoy vids 
 
 **Optional**
+-
+**Setting up autodownload and autoupload using cronie**
 
-Set autodownload using cronie
 *SOON*
+
+**Thumbnailing**
+
+I use jivan's script [here](https://gist.github.com/jivanpal/9b6f5d51ad976daaccc1f0f841807bb0) I found some issues with speech not working at times for certain thumbnails, so I dont recommend this right now. I'll try and figure out another way later. 
 
 
 ## To-do
