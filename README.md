@@ -62,7 +62,7 @@ Step 6 - Acquire the videos
 -
 I aliased this command to make it easier to ~/.bashrc (don't forget to source ~/.bashrc)
 ```
-alias yt-dlpsync='yt-dlp -f bestvideo[ext=mp4]+bestaudio[ext=aac]/mp4 --merge-output-format mp4 --ppa "ffmpeg: -movflags +faststart" --write-thumbnail --convert-thumbnails png --write-description --write-info-json  -o "%(title)s/%(title)s.%(ext)s"'
+alias yt-dlpsync='yt-dlp -f bestvideo[ext=mp4]+bestaudio[ext=aac]/mp4 --merge-output-format mp4 --ppa "ffmpeg: -movflags +faststart" --write-thumbnail --convert-thumbnails png --write-description --write-info-json -o "%(title)s/%(title)s.%(ext)s"'
 ```
 so you can use this one of two ways use a txt file to do more than one channel or just do a channel link or single youtube video 
 ```
