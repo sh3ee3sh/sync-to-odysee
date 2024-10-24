@@ -134,7 +134,7 @@ I use jivan's script [here](https://gist.github.com/jivanpal/9b6f5d51ad976daaccc
 
 </details>
 
-## To-Do (bold = important)
+## To-Do (bold = priority)
 - [ ] **add playlisting to script using lbrynet collection**
 - [ ] not related to this repository but create ability to autoupload using autovod
 - [ ] **fix claim id stuff**
