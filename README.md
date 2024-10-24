@@ -32,7 +32,7 @@ cronie (for automation of yt-dlp)
 
 ** I have issues using autovod something related to streamlink and useragents on kick, it is a good program, but it may need some troubleshooting on your end. 
 
-## Steps
+## How to Use This
 
 Step 1 - Download requirements 
 -
@@ -54,7 +54,7 @@ git clone https://github.com/sh3ee3sh/sync-to-odysee
 
 make a copy of default_incremental_lbry.sh then open with your text editor of choice
 
-change UPLOAD_DIR to your desired directory
+put your your desired directory in the UPLOAD_DIR quotes
 
 put your channel id in CHANNELID quotes
 
