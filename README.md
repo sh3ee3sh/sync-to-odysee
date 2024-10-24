@@ -98,16 +98,16 @@ enjoy vids
 <details>
 <summary><strong>Setting up autodownload and autoupload using cronie to actually make this incremental</strong></summary>
 
-- Step 1: Download cronie using your package manager
+- **Step 1: Download cronie using your package manager**
 ``` 
 sudo pacman -S cronie
 ```
-- Step 2: Enable and start cronie using systemd
+- **Step 2: Enable and start cronie using systemd**
 ```
 sudo systemctl enable cronie
 sudo systemctl start cronie --now
 ```
-- Step 3: Add our yt-dlp command without the alias to cronie's tasks
+- **Step 3: Add our yt-dlp command without the alias to cronie's task**s
 
 *crontab uses a terrible text editor by default use "export EDITOR=yourtexteditorofchoicehere" in your ~/.bashrc file to change it*
 ```
@@ -121,7 +121,7 @@ First number value specifies minutes
 
 The -P option specifies directory so change as needed. You can also use the -a option here, but you will need to point to the directory of the txt file ex: "/home/user/Videos/mylinks.txt" and replace the youtube channel link with it instead. 
 
-- Step 4: add our upload script to cronie
+- **Step 4: add our upload script to cronie**
 ```
 crontab -e
 ```
