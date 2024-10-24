@@ -107,7 +107,9 @@ sudo pacman -S cronie
 sudo systemctl enable cronie
 sudo systemctl start cronie --now
 ```
-- Step 3: Add our yt-dlp command without the alias to cronie's tasks *crontab uses a terrible text editor by default use export EDITOR=yourtexteditorofchoicehere in your ~/.bashrc*
+- Step 3: Add our yt-dlp command without the alias to cronie's tasks
+
+*crontab uses a terrible text editor by default use export EDITOR=yourtexteditorofchoicehere in your ~/.bashrc*
 ```
 crontab -e
 
