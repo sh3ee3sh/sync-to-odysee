@@ -95,18 +95,46 @@ enjoy vids
 
 **Optional**
 -
-**Setting up autodownload and autoupload using cronie to actually make this incremental**
+<details>
+<summary><strong>Setting up autodownload and autoupload using cronie to actually make this incremental</strong></summary>
 
-*SOON*
+- Step 1: Download cronie using your package manager
+``` 
+sudo pacman -S cronie
+```
+- Step 2: Enable and start cronie using systemd
+```
+sudo systemctl enable cronie
+sudo systemctl start cronie --now
+```
+- Step 3: Add our yt-dlp command without the alias to cronie's tasks *crontab uses a terrible text editor by default use export EDITOR=yourtexteditorofchoicehere in your ~/.bashrc*
+```
+crontab -e
 
-**Thumbnailing**
+0 11 * * * /usr/bin/yt-dlp -f 'bestvideo[ext=mp4]+bestaudio[ext=aac]/mp4' --write-thumbnail --convert-thumbnails png --write-description --write-info-json --merge-output-format mp4 --ppa "ffmpeg: -movflags +faststart" -P "/home/user/Videos/channel" -o "\%(title)s/\%(title)s.\%(ext)s" https://www.youtube.com/@username/videos
+```
+This command runs daily at 11 am everyday. Edit the second number value to your desired time in the 24 hour format. Add a comma with another number if you want multiple intervals ie: 11,18.
+
+First number value specifies minutes
+
+The -P option specifies directory so change as needed. You can also use the -a option here, but you will need to point to the directory of the txt file ex: "/home/user/Videos/mylinks.txt" and replace the youtube channel link with it instead. 
+
+- Step 4: add our upload script to cronie
+```
+crontab -e
+```
+
+</details>
+<details>
+<summary><strong>Thumbnailing</strong></summary>
 
 I use jivan's script [here](https://gist.github.com/jivanpal/9b6f5d51ad976daaccc1f0f841807bb0). I found some issues with speech not working for certain thumbnails, so I dont recommend this right now. I'll try and figure out another way later. 
 
+</details>
 
-## To-do
-- [ ] add playlisting to script using lbrynet collection
+## To-Do (bold = important)
+- [ ] **add playlisting to script using lbrynet collection**
 - [ ] not related to this repository but create ability to autoupload using autovod
-- [ ] fix claim id stuff
+- [ ] **fix claim id stuff**
 - [ ] find a better way to thumbnail
-- [ ] make this incremental
+- [x] ~~make this incremental~~
