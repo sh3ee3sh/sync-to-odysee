@@ -32,7 +32,7 @@ cronie (for automation of yt-dlp and upload script)
 
 ** I have issues using autovod something related to streamlink and useragents on kick, it is a good program, but it may need some troubleshooting on your end. 
 
-## How to Use This
+# How to Use This
 
 Step 1 - Download requirements 
 -
@@ -93,8 +93,8 @@ bash renamed_incremental_lbry.sh
 ```
 enjoy vids 
 
-**Optional**
--
+# **Optional**
+
 <details>
 <summary><strong>Setting up autodownload and autoupload using cronie to actually make this incremental</strong></summary>
 
