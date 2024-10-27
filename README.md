@@ -28,6 +28,8 @@ lbry-desktop
 
 cronie (for automation of yt-dlp and upload script)
 
+[tubeup](https://github.com/bibanon/tubeup) (mirroring to internet archive)
+
 [autovod](https://github.com/jenslys/autovod/) (automatic recording of twitch/youtube/kick vods) **
 
 ** I have issues using autovod something related to streamlink and useragents on kick, it is a good program, but it may need some troubleshooting on your end. 
