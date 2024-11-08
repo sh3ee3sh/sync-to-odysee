@@ -40,7 +40,7 @@ Step 1 - Download requirements
 -
 Step 2 - If you haven't already create an account on odysee and do some quests to get some tokens
 -
-Step 3 - launch lbry and login with the details you used on odysee (i dont know if this acutally required but i did it)
+Step 3 - launch lbry and login with the details you used on odysee (i dont know if this actually required but i did it)
 -
 Step 4 - we now want to find our claim id it is located on your about page on odysee
 -
