@@ -20,7 +20,9 @@ yt-dlp
 
 a linux distro
 
-bash 
+bash
+
+jq
 
 lbry-desktop
 ```
