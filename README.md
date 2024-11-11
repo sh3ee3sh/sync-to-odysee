@@ -62,7 +62,7 @@ put your desired directory in the UPLOAD_DIR quotes
 
 put your channel id in CHANNELID quotes
 
-Step 6 - Acquire the videos
+Step 6 - Acquire the videos (skip if you are just uploading already saved video)
 -
 I aliased this command to make it easier to ~/.bashrc (don't forget to source ~/.bashrc)
 ```
