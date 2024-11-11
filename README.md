@@ -58,7 +58,7 @@ git clone https://github.com/sh3ee3sh/sync-to-odysee
 
 make a copy of default_incremental_lbry.sh then open with your text editor of choice
 
-put your your desired directory in the UPLOAD_DIR quotes
+put your desired directory in the UPLOAD_DIR quotes
 
 put your channel id in CHANNELID quotes
 
