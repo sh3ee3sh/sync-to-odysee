@@ -128,6 +128,8 @@ The -P option specifies directory so change as needed. You can also use the -a o
 - **Step 4: add our upload script to cronie**
 ```
 crontab -e
+
+0 11 * * * /path/to/your/script.sh
 ```
 
 </details>
