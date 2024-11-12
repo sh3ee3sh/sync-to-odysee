@@ -83,10 +83,12 @@ find "$UPLOAD_DIR" -type f -name "*.mp4" | while read -r file; do
         echo "$filename already uploaded. Skipping."
     fi
     claim_id=$(echo "$output" | grep -oP '(?<="claim_id": ")[^"]*')
-    if [ ! -z "$claim_id" ] && [ "$claim_id" != "$CHANNELID" ]; then 
+    if [ -n "$claim_id" ] && [ "$claim_id" != "$CHANNELID" ]; then 
       echo "Claim ID for $filename: $claim_id"
       echo "$claim_id" >> "$claim_id_log"  # Save claim ID to file
-    else
-      echo "Could not find claim id."
+    elif ! grep -Fxq "$claim_id" "claim_id_log"; then
+        echo "Claim ID was already found in log."
+        else
+            echo "Couldn't find claim id."
     fi
 done
