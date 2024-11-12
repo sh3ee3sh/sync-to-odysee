@@ -88,7 +88,7 @@ find "$UPLOAD_DIR" -type f -name "*.mp4" | while read -r file; do
       echo "$claim_id" >> "$claim_id_log"  # Save claim ID to file
     elif ! grep -Fxq "$claim_id" "claim_id_log"; then
         echo "Claim ID was already found in log."
-        else
-            echo "Couldn't find claim id."
+    else
+        echo "Couldn't find claim id."
     fi
 done
