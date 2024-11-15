@@ -146,3 +146,10 @@ I use jivan's script [here](https://gist.github.com/jivanpal/9b6f5d51ad976daaccc
 - [ ] **fix claim id stuff**
 - [ ] find a better way to thumbnail
 - [x] ~~make this incremental~~
+
+## Donate
+XMR: 44cRwf4YpSzVcCajoTQfx6KtGymyhd3RCaUbu8AFJ6pSXZuYU2CzbxSGhmEyts4HAEeNpQvEFnRZ1PJZ52HgYLDRTYCWv2y
+
+btc: bc1qj8hzfd2fc6znrzqyfc3yt43krepvm026fphqsp
+
+Donations are appreciated ;) 
