@@ -1,9 +1,12 @@
 # Intro
 
-A guide on how to mass/batch upload video and manually archiving video without using Odysee's built in system. 
+A guide on how to mass/batch upload video and ~~manually archiving video~~ without using Odysee's built in system. 
 After searching for well-documented guides for beginners I gave up looking and went to go figure out myself, but now here's a guide I couldn't find before.
 
+do not use this as a archival tool lbry is just a mirror of a file stored on your system
 ## Disclaimers 
+**odysee is leaving the lbry protocol this will become obsolete**
+
 **This is experimental. Not everything will work correctly right now, and this is unnecessarily complex I will try to fix it when I have free time.**
 
 **Due to the uncertainty of the platform's future I recommend archiving everything locally till it becomes more clear.**
